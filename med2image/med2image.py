@@ -26,9 +26,9 @@ import pylab
 import matplotlib.cm as cm
 
 # Project specific imports
-import error
-import message as msg
-import systemMisc as misc
+import med2image.error
+import med2image.message as msg
+import med2image.systemMisc as misc
 
 
 class med2image(object):
