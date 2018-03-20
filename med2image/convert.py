@@ -2,7 +2,7 @@ import os
 import sys
 
 import argparse
-import med2image
+import med2image.med2image as med2image
 
 def convert(dicom_path, png_path):
 	str_outputFileStem, str_outputFileExtension = os.path.splitext(png_path)
